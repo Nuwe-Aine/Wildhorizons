@@ -101,45 +101,48 @@ width: 100%;
 
 
 
-.destinations{
-    display: flex;
-    justify-content: center;
-    
-    
-
-}
-
-.desi{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-
 .tours{
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    padding: 60px 0;
+    background: #fff;
+    
+    
+    
 }
 
-
+.package-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
     
-
+.package{
+    background: #eee;
+    height: 150px;
+    border-radius: 6px;
+}
     
 
 
 
 .partners{
-    display: flex;
-    justify-items: center;
-    gap: 50px;
-    align-items: center;
+    padding: 40px 0;
+    background: #fff;
+    
+    
 }
 
+.container-partner-logos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
+.partner{
+    width: 120px;
+    height: 60px;
+    background: #ddd;
+}
 .footer{
     display: flex;
     justify-content: center;
@@ -186,10 +189,26 @@ footer.Contact{
     display: block;
 }
 
+.destinations{
+    padding: 60px;
+}
 
+.destination-grid{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 
-
-
+}
+.destination{
+    flex: 1;
+    min-width: 200px;
+    height: 130px;
+    background: #ddd;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
 
 
 
